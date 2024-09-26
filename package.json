@@ -1,14 +1,16 @@
 {
-  "name": "oop",
+  "name": "51-grupe-oop",
   "version": "1.0.0",
+  "description": "",
   "type": "module",
   "main": "index.js",
   "scripts": {
-    "dev": "node --watch ./index.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+      "dev": "node --watch ./index.js",
+      "animal": "node --watch ./animal-world.js",
+      "static": "node --watch ./static.js",
+      "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "description": ""
+  "author": "Rimantas (https://github.com/belauzas)",
+  "license": "MIT"
 }
